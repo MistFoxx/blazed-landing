@@ -15,7 +15,7 @@ export default function Home() {
         alt="Silhouette of a person holding up a cannabis leaf in front of the sun low in the sky. Photo by David Gabric on Unsplash."
         width={380}
         height={400}
-        className="rounded-tl-full rounded-tr-full mb-5 h-96 w-80 lg:w-full lg:h-full object-cover"
+        className="rounded-tl-full rounded-tr-full mb-5 h-96 w-80 lg:w-full lg:h-1/2 object-cover"
         />
       </div>
     </div>
