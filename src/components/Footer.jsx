@@ -1,18 +1,19 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
 <footer className="bg-darkbg text-lighttext px-4 pt-6">
 <div className="flex flex-row justify-between">
     <div>
-        <a href="/">
+        <Link href="/">
             <Image
             src="/images/blazedWideLogo.png"
             alt="Blazed Logo"
             width={200}
             height={55} 
             />
-        </a>
+        </Link>
     </div>
 
 <div className="flex flex-row justify-between">
